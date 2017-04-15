@@ -1,0 +1,122 @@
+/*Variables*/
+:root{
+	/*Colors*/
+	--blue: #62ACDF;
+	--grey: #828282;
+
+	/*Fonts*/
+	--montserrat: 'Montserrat', sans-serif;
+	--merriweather: 'Merriweather', sans-serif;
+	
+}
+/*Variables End*/
+
+/*Navigation*/
+.navbar-custom{
+	background: none;
+	padding-top: 20px;	
+}
+
+#nav{
+	padding-top: 30px;
+	/*font-family: var(--montserrat);*/
+	font-family: var(--montserrat);
+	
+}
+
+#logo{
+	/*padding: 10px 10px 0 10px;*/
+	width: 125px !important;
+	height: 130px !important;
+}
+
+#nav a {
+	color: var(--blue) !important;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+#nav a:link {
+	color: var(--blue) !important;
+}
+
+#nav a:visited {
+	color: var(--blue) !important;
+}
+
+#nav a:hover {
+	color: var(--blue) !important;
+	text-decoration: none;
+	background-color: white;
+}
+
+#nav a:active {
+	color: var(--grey);
+}
+
+/*button.navbar-toggle.collapsed{
+	background-color: var(--grey);
+	}*/
+
+	span.icon-bar{
+		background-color: var(--blue);
+	}
+	.glyphicon.glyphicon-download-alt{
+		font-size: 17px;
+
+	}
+
+	/*Navigation End*/
+
+	body{
+		background-color: #191919 !important;
+	}
+
+	h5{
+		color: white !important;
+	}
+	.section-title{
+		background-color: #62ACDF;
+		border-radius: 4px;
+		margin-bottom: 20px;
+		padding: 15px;
+		color: white;
+		font-family: var(--merriweather);
+	}
+
+	/*Portfolio Section*/
+	.portfolio-image{
+		/*padding: 5px;*/
+		margin-left: 25px;
+		margin-bottom: 10px;
+		border: 2px var(--blue) solid;
+	}
+	a.portfolio-links{
+		color: #62ACDF;
+		padding: 0 10px 5px 10px;
+		font-size: 20px;
+		border-bottom: 3px grey solid;
+
+	}
+	a.portfolio-links:active{
+		color: #62ACDF;
+	}
+	a.portfolio-links:hover{
+		color: #62ACDF;
+		text-decoration: none;
+		border-bottom: 3px #62ACDF solid;
+	}
+	a.portfolio-links{
+		color: #62ACDF;
+	}
+	.active{
+		border-bottom: 3px #62ACDF solid;
+		color: grey;
+	}
+	/*Portfolio Section End*/
+
+	/*Skills Section*/
+	.skills{
+		background-color: #828282;
+	}
+/*Skills Section End*/
